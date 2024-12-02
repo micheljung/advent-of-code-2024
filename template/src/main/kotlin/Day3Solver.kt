@@ -1,5 +1,6 @@
 package com.github.micheljung.adventofcode.y2023
 
+import com.github.micheljung.adventofcode.common.CachingInputProvider
 import com.github.micheljung.adventofcode.common.Solver
 
 object Day3Solver : Solver {
@@ -7,3 +8,12 @@ object Day3Solver : Solver {
     TODO("Not yet implemented")
   }
 }
+
+fun main() {
+  val example = """
+    
+  """.trimIndent()
+  println(Day3Solver.solve(example.lineSequence()))
+  println(Day3Solver.solve(CachingInputProvider(2023, 3).get().lineSequence()))
+}
+
