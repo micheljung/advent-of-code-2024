@@ -18,4 +18,5 @@ include(
   "common",
   "template",
   "y2023",
+  "y2024",
 )
