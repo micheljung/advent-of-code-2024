@@ -1,4 +1,4 @@
-package com.github.micheljung.adventofcode.y2024
+package com.github.micheljung.adventofcode.y2023
 
 import com.github.micheljung.adventofcode.common.Solver
 
